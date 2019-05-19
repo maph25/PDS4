@@ -13,7 +13,7 @@
 #include "MK64F12.h"
 
 #define PI 3.14F
-#define T_SAMPLE 0.00002F
+#define T_SAMPLE 0.00005F
 
 /*Notes definitions*/
 #define A_BASE 220
@@ -21,7 +21,7 @@
 #define C_BASE 130.8F
 #define D_BASE 146.8F
 #define E_BASE 164.8F
-#define F_base 174.6F
+#define F_BASE 174.6F
 #define G_BASE 196
 /*Harmonies*/
 #define FIRST 2
@@ -43,13 +43,13 @@
 #define T8 0.11F
 
 /*Digital note creation*/
-float note_A(uint16_t sample);
-float note_B(uint16_t sample);
-float note_C(uint16_t sample);
-float note_D(uint16_t sample);
-float note_E(uint16_t sample);
-float note_F(uint16_t sample);
-float note_G(uint16_t sample);
+float note_A(uint16_t n);
+float note_B(uint16_t n);
+float note_C(uint16_t n);
+float note_D(uint16_t n);
+float note_E(uint16_t n);
+float note_F(uint16_t n);
+float note_G(uint16_t n);
 
 
 #endif /* GUITAR_H_ */
