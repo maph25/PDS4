@@ -12,14 +12,14 @@
 float note_A(uint16_t n)
 {
 	float note;
-	note = sin(A_BASE * 2 * PI * n * T_SAMPLE) + T1 * sin(A_BASE * FIRST * 2 * PI * n * T_SAMPLE)
-													  + T2 * sin(A_BASE * SECOND * 2 * PI * n * T_SAMPLE)
-											          + T3 * sin(A_BASE * THIRD * 2 * PI * n * T_SAMPLE)
-											          + T4 * sin(A_BASE * FOURTH * 2 * PI * n * T_SAMPLE)
-											          + T5 * sin(A_BASE * FIFTH * 2 * PI * n * T_SAMPLE)
-											          + T6 * sin(A_BASE * SIXTH * 2 * PI * n * T_SAMPLE)
-													  + T7 * sin(A_BASE * SEVENTH * 2 * PI * n * T_SAMPLE)
-													  + T8 * sin(A_BASE * EIGHTH * 2 * PI * n * T_SAMPLE);
+	note = sin(A_BASE * 2 * PI * n * T_SAMPLE) 	+ T1 * sin(A_BASE * FIRST * 2 * PI * n * T_SAMPLE)
+							+ T2 * sin(A_BASE * SECOND * 2 * PI * n * T_SAMPLE)
+							+ T3 * sin(A_BASE * THIRD * 2 * PI * n * T_SAMPLE)
+							+ T4 * sin(A_BASE * FOURTH * 2 * PI * n * T_SAMPLE)
+							+ T5 * sin(A_BASE * FIFTH * 2 * PI * n * T_SAMPLE)
+							+ T6 * sin(A_BASE * SIXTH * 2 * PI * n * T_SAMPLE)
+							+ T7 * sin(A_BASE * SEVENTH * 2 * PI * n * T_SAMPLE)
+						 	+ T8 * sin(A_BASE * EIGHTH * 2 * PI * n * T_SAMPLE);
 	return note;
 }
 
